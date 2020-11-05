@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 	return view('pages.index');
 });
+
+Route::get('/programs', function () {
+	return view('pages.program');
+})->name('program');

@@ -11,7 +11,7 @@
 	</div>
 	<div class="navbar-menu" id="nav-links">
 		<div class="navbar-end">
-			<a class="navbar-item is-uppercase" href="">program</a>
+			<a class="navbar-item is-uppercase" href=" {{ route('program') }}">program</a>
 			<a class="navbar-item is-uppercase" href="">archieve</a>
 			<a class="navbar-item is-uppercase" href="">crew</A>
 			<a class="navbar-item is-uppercase" href="">about</A>
